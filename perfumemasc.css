@@ -156,18 +156,14 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.descricao{
-    max-width:500px;
-    text-align: justify;
-    background-color: white;
-    margin-bottom: 15px  
+.foto ul {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px; 
 }
-@media  screen and (max-width:360px) and (min-width:320px){
-    .descricao{
-        font-size: 12pt;
-        max-width: 100%;
-    }
-}
+
 footer{
     color: aqua;
     border-top: solid aqua;
