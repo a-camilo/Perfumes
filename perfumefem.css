@@ -11,10 +11,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-size: 30pt;  
-    display: block;
-    height: 100%;
-    
+    font-size: 16pt;  
+    height: 100%;    
 }
 /* @media/img regula o tamho da foto responsivamente*/
 @media(min-width:320px){
@@ -67,7 +65,7 @@ body{
 @media (max-width:870px) and (min-width:500px){
     #menu ul li a{
         padding: 10px 15px;   
-        font-size: 20pt;
+        font-size: 16pt;
     }
 }
 @media (max-width:499px) and (min-width:320px){
@@ -105,7 +103,7 @@ body{
 }
 .menu_contatos img{
     
-    padding: 10px 69px;
+    padding: 11px 30px;
     width: auto;
 }
 /* regula o tamanho da imagem contato e padding*/

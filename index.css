@@ -10,14 +10,15 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-size: 30pt;   
+    font-size: 16pt;   
 }
 /* @media/img regula o tamho da foto responsivamente*/
 @media(min-width:320px){
     img{max-width: 100%; text-align: center;}       
 }
 #menu ul ul{
-    display: none;       
+    display: none;   
+        
 }
 #menu ul li:hover > ul{
     display: block;
@@ -62,13 +63,13 @@ body{
 @media (max-width:870px) and (min-width:500px){
     #menu ul li a{
         padding: 10px 15px;   
-        font-size: 20pt;
+        font-size: 16pt;
     }
 }
 @media (max-width:499px) and (min-width:320px){
     #menu ul li a{
         padding: 5px 7.5px;   
-        font-size: 20pt;
+        font-size: 16pt;
     }
 }
 #menu ul ul {
@@ -100,14 +101,14 @@ body{
 }
 .menu_contatos img{
     
-    padding: 10px 69px;
+    padding: 11px 30px;
     width: auto;
 }
 /* regula o tamanho da imagem contato e padding*/
 @media (max-width:870px) and (min-width:500px){
     .menu_contatos img{
         padding: 10px 27px;   
-        font-size: 20pt;
+        font-size: 16pt;
         max-width: 100%;  
     }
 }
@@ -115,7 +116,7 @@ body{
     .menu_contatos img{
         padding: 0px 40px; 
         max-width: 100%;  
-        font-size: 20pt;
+        font-size: 16pt;
         
     }
 }	
@@ -128,7 +129,7 @@ body{
 #nome_site{
     background-color: black;
     color: white;
-    font-size: auto;
+    font-size: 16pt;
     text-align: center;
     width: 100%;  
     padding: 20px;
@@ -136,11 +137,19 @@ body{
 }
 @media(max-width:500px){
     #nome_site{
-        font-size: 19pt;
+        font-size: 16pt;
         padding: auto;
         height: auto;
     }
 }
+@media(min-width:320px){
+    #nome_site{
+        font-size: 15pt;
+        padding: auto;
+        height: auto;
+    }
+}
+
 /*Sub h2 titulos*/
 h2{
     padding: 25px;
@@ -149,7 +158,7 @@ h2{
 @media (max-width:499px) and (min-width:320px){
     h2{
         padding: 10px;   
-        font-size: 27pt;
+        font-size: 16pt;
     }
 }
 #foto{
@@ -164,7 +173,7 @@ h2{
 @media (max-width:870px) and (min-width:500px){
     .descricao{
         padding: 0px; 
-        font-size: 20pt;
+        font-size: 12pt;
     }
 }
 @media (max-width:499px) and (min-width:320px){
@@ -179,7 +188,7 @@ footer{
     background-color: #4b545f; 
     height: auto;
     width: 100%;
-    font-size: 26px;
+    font-size: 12pt;
     text-align: center;
     line-height: 78px;
 }
@@ -188,7 +197,7 @@ footer{
     list-style-type: none; 
     padding: 0px 5px; 
 }  
-@media (max-width:499px) and (min-width:320px){
+@media screen and (max-width:499px) and (min-width:320px){
     footer{ 
         list-style-type: none;
         padding: 0px;   
