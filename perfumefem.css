@@ -3,10 +3,8 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: oblique;
-    
+    font-style: oblique;   
 }
-
 /* @media/img regula o tamaho da foto responsivamente*/
 @media(min-width:320px){
     img{max-width: 100%; text-align: center;}       
@@ -115,7 +113,6 @@
     .menu_contatos img{
         padding: 0px 13px; 
         max-width: 68%;  
-    
     }
 }	
 #menu ul ul li a:hover {
@@ -130,8 +127,7 @@
     font-size: 20pt;
     text-align: center;
     width: 100%;  
-    padding: 20px;
-    
+    padding: 20px;   
 }
 @media(max-width:500px){
     #nome_site{
@@ -158,7 +154,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 .descricao{
     max-width:500px;
@@ -187,6 +182,12 @@ footer{
     list-style-type: none; 
     padding: 0px 5px; 
     justify-content: space-around;
+}
+.footer_redesocial a{
+    max-width: 10%;
+}
+.mercadopago img{
+    max-width: 10%;    
 } 
 
 @media (max-width:1024px) and (min-width:320px){
@@ -198,5 +199,9 @@ footer{
     }
     .footer_redesocial ul li img{
         max-width:50%;  
+    }
+    .mercadopago img{
+        max-width: 10%;
+        margin: 0px;   
     }
 }

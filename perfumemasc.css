@@ -3,10 +3,8 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: oblique;
-    
+    font-style: oblique;    
 }
-
 /* @media/img regula o tamaho da foto responsivamente*/
 @media(min-width:320px){
     img{max-width: 100%; text-align: center;}       
@@ -188,6 +186,12 @@ footer{
     padding: 0px 5px; 
     justify-content: space-around;
 } 
+.footer_redesocial a{
+    max-width: 10%;
+}
+.mercadopago img{
+    max-width: 10%;    
+}
 
 @media (max-width:1024px) and (min-width:320px){
     footer{ 
@@ -196,9 +200,11 @@ footer{
         font-size: 12pt;
         width: 100%;
     }
-    .footer_redesocial ul li img{
-        
-        max-width:50%;
-        
+    .footer_redesocial ul li img{ 
+        max-width:50%;  
+    }
+    .mercadopago img{
+        max-width: 10%;
+        margin: 0px;  
     }
 }
