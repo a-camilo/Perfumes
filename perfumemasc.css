@@ -128,8 +128,7 @@
     font-size: 20pt;
     text-align: center;
     width: 100%;  
-    padding: 20px;
-    
+    padding: 20px;   
 }
 @media(max-width:500px){
     #nome_site{
@@ -156,7 +155,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 .foto ul {
     display: grid;
@@ -187,7 +185,6 @@ footer{
 .mercadopago img{
     max-width: 10%;    
 }
-
 @media (max-width:1024px) and (min-width:320px){
     footer{ 
         list-style-type: none;
