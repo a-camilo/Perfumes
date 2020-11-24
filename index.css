@@ -4,15 +4,10 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
+    font-size: 16pt;
 }
-body{
-    background-image: url("img/backgroundSite5.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-size: 16pt;   
-}
-/* @media/img regula o tamho da foto responsivamente*/
+
+/* @media/img regula o tamaho da foto responsivamente*/
 @media(min-width:320px){
     img{max-width: 100%; text-align: center;}       
 }
