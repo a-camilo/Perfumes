@@ -131,6 +131,7 @@
     text-align: center;
     width: 100%;  
     padding: 20px;
+    
 }
 @media(max-width:500px){
     #nome_site{
@@ -138,7 +139,6 @@
         padding: auto;
         height: auto;
     }
-}
 }
 @media screen and (max-width:499px)and (min-width:320px){
     #nome_site{
