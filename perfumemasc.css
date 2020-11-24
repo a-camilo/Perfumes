@@ -62,8 +62,11 @@
 }
 @media (max-width:499px) and (min-width:320px){
     #menu ul li a{
-        padding: 5px 7.5px;   
-        font-size: 16pt;
+        justify-content: space-around;   
+        white-space: nowrap;
+        font-size: 10pt;
+        padding: 0px 7.5px;
+        margin: 0px;
     }
 }
 #menu ul ul {
@@ -85,31 +88,32 @@
 @media (max-width:870px) and (min-width:500px){
     #menu ul ul li a{
         padding: 15px 15px;   
-    
+        justify-content: space-around;  
     }
 }
 @media (max-width:499px) and (min-width:320px){
     #menu ul ul li a{
-        padding: 15px 5px;    
+        padding: 15px 5px;
+        justify-content: space-around;      
     }
 }
 .menu_contatos img{
     
-    padding: 11px 30px;
-    width: auto;
+    padding: 11px 20px;
+    max-width: 85%;
 }
 /* regula o tamanho da imagem contato e padding*/
 @media (max-width:870px) and (min-width:500px){
     .menu_contatos img{
-        padding: 10px 27px;   
+        padding: 10px 26px;   
         font-size: 16pt;
-        max-width: 100%;  
+        max-width: 90%;  
     }
 }
 @media (max-width:499px) and (min-width:320px){
     .menu_contatos img{
-        padding: 0px 40px; 
-        max-width: 100%;  
+        padding: 0px 13px; 
+        max-width: 68%;  
         font-size: 16pt;
         
     }
@@ -123,15 +127,23 @@
 #nome_site{
     background-color: black;
     color: white;
-    font-size: auto;
+    font-size: 20pt;
     text-align: center;
     width: 100%;  
     padding: 20px;
 }
 @media(max-width:500px){
     #nome_site{
-        font-size: 16pt;
+        font-size: 18pt;
         padding: auto;
+        height: auto;
+    }
+}
+@media screen and (max-width:499px)and (min-width:320px){
+    #nome_site{
+       
+        font-size: 15pt;
+        padding: 3px;
         height: auto;
     }
 }

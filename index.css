@@ -4,7 +4,7 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
-    font-size: 16pt;
+    
 }
 
 /* @media/img regula o tamaho da foto responsivamente*/
@@ -26,7 +26,7 @@
 #menu ul {
     background-color: #4b545f;  
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	padding: 0 20px;  
+	padding: 0px;  
 	list-style: none;
     position: relative;  
 }
@@ -57,18 +57,22 @@
 /* tamanho das fontes do menu*/
 @media (max-width:870px) and (min-width:500px){
     #menu ul li a{
+        justify-content: space-around;
         padding: 10px 15px;   
         font-size: 16pt;
     }
 }
 @media (max-width:499px) and (min-width:320px){
     #menu ul li a{
-        padding: 5px 7.5px;   
-        font-size: 16pt;
+        justify-content: space-around;   
+        white-space: nowrap;
+        font-size: 10pt;
+        padding: 0px 7.5px;
+        margin: 0px;
     }
 }
 #menu ul ul {
-    background: #5f6975; border-radius: 0px; padding: 0;
+    background: #5f6975; border-radius: 0px; padding: 0px;
     position: absolute; top: 100%;
 }
 #menu ul ul li {
@@ -86,31 +90,33 @@
 @media (max-width:870px) and (min-width:500px){
     #menu ul ul li a{
         padding: 15px 15px;   
-    
+        justify-content: space-around;  
     }
 }
 @media (max-width:499px) and (min-width:320px){
     #menu ul ul li a{
-        padding: 15px 5px;    
+        padding: 10px 7px;  
+        justify-content: space-around;  
     }
 }
 .menu_contatos img{
     
-    padding: 11px 30px;
-    width: auto;
+    padding: 11px 20px;
+    width: 0 auto;
+    max-width: 85%;
 }
 /* regula o tamanho da imagem contato e padding*/
 @media (max-width:870px) and (min-width:500px){
     .menu_contatos img{
-        padding: 10px 27px;   
+        padding: 10px 26px;   
         font-size: 16pt;
-        max-width: 100%;  
+        max-width: 90%;  
     }
 }
 @media (max-width:499px) and (min-width:320px){
     .menu_contatos img{
-        padding: 0px 40px; 
-        max-width: 100%;  
+        padding: 0px 13px; 
+        max-width: 68%;  
         font-size: 16pt;
         
     }
@@ -124,7 +130,7 @@
 #nome_site{
     background-color: black;
     color: white;
-    font-size: 16pt;
+    font-size: 20pt;
     text-align: center;
     width: 100%;  
     padding: 20px;
@@ -132,15 +138,15 @@
 }
 @media(max-width:500px){
     #nome_site{
-        font-size: 16pt;
+        font-size: 18pt;
         padding: auto;
         height: auto;
     }
 }
-@media(min-width:320px){
+@media screen and (max-width:499px)and (min-width:320px){
     #nome_site{
         font-size: 15pt;
-        padding: auto;
+        padding: 3px;
         height: auto;
     }
 }
@@ -183,7 +189,6 @@ footer{
     background-color: #4b545f; 
     height: auto;
     max-width: 100%;
-    font-size: 11pt;
     text-align: center;
     line-height: 78px;
 }
@@ -196,7 +201,7 @@ footer{
     footer{ 
         list-style-type: none;
         padding: 0px;   
-        font-size: 11pt;
+        font-size: 10pt;
         max-width: 100%;
     }
 }
