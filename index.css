@@ -182,8 +182,8 @@ footer{
     border-top: solid aqua;
     background-color: #4b545f; 
     height: auto;
-    width: 100%;
-    font-size: 12pt;
+    max-width: 100%;
+    font-size: 11pt;
     text-align: center;
     line-height: 78px;
 }
@@ -197,6 +197,6 @@ footer{
         list-style-type: none;
         padding: 0px;   
         font-size: 11pt;
-        width: 100%;
+        max-width: 100%;
     }
 }
