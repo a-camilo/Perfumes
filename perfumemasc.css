@@ -62,8 +62,8 @@
     #menu ul li a{
         justify-content: space-around;   
         white-space: nowrap;
-        font-size: 10pt;
-        padding: 15px 7.5px;
+        font-size: 11.1pt;
+        padding: 15px 9px;
         margin: 0px;
     }
 }
@@ -180,24 +180,26 @@ footer{
     padding: 0px 5px; 
     justify-content: space-around;
 } 
-.footer_redesocial a{
-    max-width: 10%;
+.footer_redesocial ul li img{
+    max-width: 60%;
 }
 .mercadopago img{
-    max-width: 10%;    
+    max-width: 10%; 
+    background-color: aqua;
 }
-@media (max-width:1024px) and (min-width:320px){
+@media screen and (max-width:763px) and (min-width:320px){
     footer{ 
         list-style-type: none;
         padding: 0px;   
-        font-size: 12pt;
+        font-size: 10pt;
         width: 100%;
     }
     .footer_redesocial ul li img{ 
-        max-width:50%;  
+        max-width:60%;  
     }
     .mercadopago img{
-        max-width: 10%;
+        max-width: 25%;
         margin: 0px;  
+       
     }
 }

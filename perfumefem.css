@@ -62,8 +62,8 @@
     #menu ul li a{
         justify-content: space-around;   
         white-space: nowrap;
-        font-size: 10pt;
-        padding: 15px 7.5px;
+        font-size: 11.1pt;
+        padding: 15px 9px;
         margin: 0px;
     }
 }
@@ -150,7 +150,7 @@
     padding:0px;
 }
 #container{
-    
+    padding: 10px;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
@@ -182,20 +182,21 @@ footer{
     max-width: 10%;
 }
 .mercadopago img{
-    max-width: 10%;    
+    max-width: 10%;  
+    background-color: aqua;  
 } 
-@media (max-width:1024px) and (min-width:320px){
+@media(min-width:320px){
     footer{ 
         list-style-type: none;
-        padding: 0px;   
-        font-size: 12pt;
+        padding: 0px; 
+        font-size: 10pt;  
         width: 100%;
     }
     .footer_redesocial ul li img{
         max-width:50%;  
     }
     .mercadopago img{
-        max-width: 10%;
+        max-width: 20%;
         margin: 0px;   
     }
 }
