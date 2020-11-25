@@ -178,14 +178,14 @@ footer{
     padding: 0px 5px; 
     justify-content: space-around;
 }
-.footer_redesocial a{
-    max-width: 10%;
+.footer_redesocial ul li img{
+    max-width: 60%;
 }
 .mercadopago img{
     max-width: 10%;  
     background-color: aqua;  
 } 
-@media(min-width:320px){
+@media screen and (max-width:763px) and(min-width:320px){
     footer{ 
         list-style-type: none;
         padding: 0px; 
@@ -193,7 +193,7 @@ footer{
         width: 100%;
     }
     .footer_redesocial ul li img{
-        max-width:50%;  
+        max-width:60%;  
     }
     .mercadopago img{
         max-width: 20%;
