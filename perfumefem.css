@@ -155,12 +155,26 @@
     flex-wrap:wrap;
     justify-content: space-around;
 }
+h3{
+    text-align: center;
+}
+.descricao{
+    padding: 10px;
+    text-align: justify;
+}
 .foto ul {
     display: grid;
     list-style-type: none;
     grid-template-columns: auto auto;
     grid-gap: 10px;
-    padding: 10px; 
+    text-align: center;
+    /*Eu inseri o text-align aqui por que a foto em tela acima do 1024pxs não estava centralizando. Com certeza não é uma boa prática mas como estou aprendendo até então, foi uma solução viável.*/
+}
+.foto li {
+    border: 1px solid;
+}
+.foto img{
+    justify-content: center;  
 }
 footer{
     color: aqua;
